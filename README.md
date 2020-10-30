@@ -22,9 +22,9 @@ sudo gcc -Wall hello.c `pkg-config fuse3 --cflags --libs` -o hello
 
 and then you can run your file with this:
 
-`./hello.c <mountpoint>`
+`./hello <mountpoint>`
 you just have to replace the `<mountpoint>` by your mountpoint of choice 
 
->for example `./hello.c /home/marie/Documents/testing`
+>for example `./hello /home/marie/Documents/testing`
 
 and now you can type the content of your file and you're done
